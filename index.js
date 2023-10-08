@@ -10,7 +10,7 @@ const start = async () => {
   try {
     await fastify.register(PopulationRoute);
     fastify.setNotFoundHandler((request, response) => {
-      response.code(404).type('application/json').send('Not Found');
+      response.code(404).type('application/json').send({error: 'Not found'});
   })
     await fastify.listen({ port })
   } catch (err) {
