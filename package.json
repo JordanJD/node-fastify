@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "fastify": "^4.23.2",
+    "node": "^18.0.0",
+    "redis": "^4.6.10"
+  },
+  "type": "module",
+  "name": "node-js-project",
+  "version": "1.0.0",
+  "description": "simple node, fastify, and redis project in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js & redis-server",
+    "migrate": "node migrate-redis.js"
+  },
+  "author": "jordan dickow",
+  "license": "ISC"
+}
