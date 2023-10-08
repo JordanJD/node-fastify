@@ -4,7 +4,7 @@ const fastify = Fastify({
   logger: true
 });
 
-const port = 5553;
+const port = 5555;
 
 const start = async () => {
   try {
