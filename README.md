@@ -9,4 +9,5 @@ A simple node, redis, and fastify server. The setup will install required module
 # API
 #### GET `/api/population/state/:state/city/:city`
 
+
 #### PUT `/api/population/state/:state/city/:city`
