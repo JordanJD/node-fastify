@@ -16,7 +16,6 @@ A simple node, redis, and fastify server. The setup will install required module
 
 ## TODOs
 
-- Test 200/201 responses for PUT
 - Setup Jest testing
 - Setup automated endpoint tests and benchmarks
 - Write some code comments / documentation
